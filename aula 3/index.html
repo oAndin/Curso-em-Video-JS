@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Criando uma Variável para armazenar os dados dentro da variável //
+        const nome 
+        // Codigo para receber o dado do usuário por um input //
+        = window.prompt("Qual seu nome?");
+        const dado = window.confirm("Você quer receber sua mensagem?");
+        console.log(dado);
+        if (dado === true ){
+            // document é uma manipulação de documento (DOM) dentro do HTML 
+        // Aqui temos o document.write, que irá escrever no HTML nosso dado com a manipulação desejada!
+        document.write(`Olá, ${nome}! <br>`);
+        document.write(`Seu nome tem ${nome.length} letras. <br>`);
+        document.write(` Seu nome em maiúsculo é ${nome.toUpperCase()} e em minusculo é ${nome.toLowerCase()}! <br>`);
+        }
+        else {
+            document.write(":C")
+        }
+
+        let num = 123e-5;
+        console.log(num);
+
+        
+    </script>
+</body>
+</html>
