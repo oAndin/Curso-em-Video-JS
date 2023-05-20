@@ -30,3 +30,10 @@ console.log(numPos);
 console.log(numPos2);
 console.log(numNeg);
 console.log(numNeg2);
+
+
+// calculo com math.floor para saber o numero de semanas em uma ano
+const semanaAno = Math.floor(365/7);
+console.log(semanaAno);
+const diasRestantes =  (365 % 7);
+console.log(diasRestantes);
