@@ -31,7 +31,7 @@ function sum1() {
     };
 };
 
-const resultado = sum1;
+const resultado = sum1.value;
 console.log(resultado);
 console.log(n1);
 console.log(n2);
